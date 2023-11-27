@@ -5,6 +5,7 @@ body {
 	letter-spacing: -0.66px;
 	line-height: normal;
 	color: #fff;
+	background-color: #000;
 }
 
 .container {
@@ -51,11 +52,20 @@ body {
 }
 
 .header__menu {
+	display: inline-block;
 }
 
 .menu {
 	display: inline-block;
 	vertical-align: super;
+}
+
+.menu__item {
+	display: inline-block;
+}
+
+.menu__item:not(:last-child) {
+	margin-right: 48px;
 }
 
 .menu__link {
@@ -70,10 +80,6 @@ body {
 
 .menu__link:hover {
 	color: #1bff07;
-}
-
-.menu__link:not(:last-child) {
-	margin-right: 48px;
 }
 
 .header__text {
@@ -94,7 +100,6 @@ body {
 .projects {
 	padding-top: 150px;
 	padding-bottom: 75px;
-	background-color: #000;
 }
 
 .projects__title {
@@ -111,6 +116,24 @@ body {
 	position: relative;
 	height: 550px;
 	border-radius: 30px;
+}
+.projects__item-link {
+	display: inline-block;
+	border-radius: 30px;
+	overflow: hidden;
+}
+
+.projects__item-link:hover .projects__item-title {
+	margin-bottom: 10px;
+	transform-origin: left;
+	transform: scale(2);
+	transition: all 1s ease;
+	color: #1bff07;
+}
+
+.projects__item-link:hover .projects__item-image {
+	transform: scale(1.1);
+	transition: all 1s ease;
 }
 
 .projects__item-inner {
@@ -129,10 +152,6 @@ body {
 	font-weight: 400;
 	line-height: normal;
 	letter-spacing: -0.9px;
-}
-
-.projects__item-title:hover {
-	color: #1bff07;
 }
 
 .projects__item-text {
@@ -169,7 +188,6 @@ body {
 .skills {
 	padding-top: 75px;
 	padding-bottom: 75px;
-	background-color: #000;
 }
 
 .skills__title {
@@ -201,7 +219,6 @@ body {
 .tasks {
 	padding-top: 75px;
 	padding-bottom: 75px;
-	background-color: #000;
 }
 
 .tasks__title {
@@ -216,7 +233,6 @@ body {
 }
 
 .tasks__item-inner {
-	height: 283px;
 	padding: 40px;
 	border-radius: 30px;
 	background-color: #191c19;
@@ -240,7 +256,6 @@ body {
 .contacts {
 	padding-top: 75px;
 	padding-bottom: 150px;
-	background-color: #000;
 }
 
 .contacts__body {
@@ -276,10 +291,6 @@ body {
 }
 
 .footer {
-	background-color: #000;
-}
-
-.footer__body {
 	padding-top: 76px;
 	padding-bottom: 30px;
 	border-radius: 30px 30px 0 0;

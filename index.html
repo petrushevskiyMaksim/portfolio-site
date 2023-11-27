@@ -32,11 +32,21 @@
 					<div class="header__logo">
 						<a href="#" class="header__logo-link">Orlov</a>
 					</div>
-					<nav class="header__menu menu">
-						<a href="#projects" class="menu__link">портфолио</a>
-						<a href="#skills" class="menu__link">компетенции</a>
-						<a href="#tasks" class="menu__link">УСЛУГИ</a>
-						<a href="#contacts" class="menu__link">КОНТАКТЫ</a>
+					<nav class="header__menu">
+						<ul class="menu">
+							<li class="menu__item">
+								<a href="#projects" class="menu__link">портфолио</a>
+							</li>
+							<li class="menu__item">
+								<a href="#skills" class="menu__link">компетенции</a>
+							</li>
+							<li class="menu__item">
+								<a href="#tasks" class="menu__link">УСЛУГИ</a>
+							</li>
+							<li class="menu__item">
+								<a href="#contacts" class="menu__link">КОНТАКТЫ</a>
+							</li>
+						</ul>
 					</nav>
 				</div>
 				<p class="header__text">
@@ -54,43 +64,46 @@
 				<h2 class="projects__title">Самые свежие проекты</h2>
 				<ul class="projects__list">
 					<li class="projects__item">
-						<img
-							class="projects__item-image"
-							src="./images/projects-realhome.png"
-							alt="Проект сайта Realhome"
-						/>
-						<div class="projects__item-inner">
-							<a class="projects__item-link" href="#">
-								<h3 class="projects__item-title">Realhome</h3>
+						<a
+							class="projects__item-link"
+							href="https://petrushevskiymaksim.github.io/metrika/"
+						>
+							<img
+								class="projects__item-image"
+								src="./images/projects-realhome.png"
+								alt="Проект сайта Realhome"
+							/>
+							<div class="projects__item-inner">
+								<h3 class="projects__item-title">Метрика</h3>
 								<p class="projects__item-text">дизайн,верстка, настройка</p>
-							</a>
-						</div>
+							</div>
+						</a>
 					</li>
 					<li class="projects__item">
-						<img
-							class="projects__item-image"
-							src="./images/projects-glass.png"
-							alt="Проект сайта GLASS"
-						/>
-						<div class="projects__item-inner">
-							<a class="projects__item-link" href="#">
+						<a class="projects__item-link" href="#">
+							<img
+								class="projects__item-image"
+								src="./images/projects-glass.png"
+								alt="Проект сайта GLASS"
+							/>
+							<div class="projects__item-inner">
 								<h3 class="projects__item-title">GLASS</h3>
 								<p class="projects__item-text">разработка интерфейса</p>
-							</a>
-						</div>
+							</div>
+						</a>
 					</li>
 					<li class="projects__item">
-						<img
-							class="projects__item-image"
-							src="./images/projects-fesiyen.png"
-							alt="Проект сайта Fesiyen"
-						/>
-						<div class="projects__item-inner">
-							<a class="projects__item-link" href="#">
+						<a class="projects__item-link" href="#">
+							<img
+								class="projects__item-image"
+								src="./images/projects-fesiyen.png"
+								alt="Проект сайта Fesiyen"
+							/>
+							<div class="projects__item-inner">
 								<h3 class="projects__item-title">Fesiyen</h3>
 								<p class="projects__item-text">разработка интерфейса</p>
-							</a>
-						</div>
+							</div>
+						</a>
 					</li>
 				</ul>
 				<a class="project__btn" href="#">Смотреть все проекты</a>
@@ -235,13 +248,11 @@
 		</section>
 
 		<footer class="footer">
-			<div class="footer__body">
-				<div class="container">
-					<h4 class="footer__title">
-						Портфолио фротнтенд-разработчика Петрушевского Максима
-					</h4>
-					<p class="footer__text">Все права защищены. 2023</p>
-				</div>
+			<div class="container">
+				<h4 class="footer__title">
+					Портфолио фротнтенд-разработчика Петрушевского Максима
+				</h4>
+				<p class="footer__text">Все права защищены. 2023</p>
 			</div>
 		</footer>
 	</body>
