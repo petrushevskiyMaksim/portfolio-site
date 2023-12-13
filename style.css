@@ -1,0 +1,272 @@
+@import './blocks/header.css';
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'IBM Plex Mono', monospace;
+	font-weight: 400;
+	font-size: 22px;
+	letter-spacing: -0.66px;
+	line-height: normal;
+	color: #fff;
+	background-color: #000;
+}
+
+.container {
+	margin: 0 auto;
+	width: 1180px;
+	padding: 0 15px;
+}
+
+img {
+	max-width: 100%;
+}
+
+.menu {
+	display: inline-block;
+	vertical-align: super;
+}
+
+.menu__item {
+	display: inline-block;
+}
+
+.menu__item:not(:last-child) {
+	margin-right: 48px;
+}
+
+.menu__link {
+	color: #fff;
+	font-family: IBM Plex Mono;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: -0.54px;
+	text-transform: uppercase;
+}
+
+.menu__link:hover {
+	color: #1bff07;
+}
+
+.projects {
+	padding-top: 150px;
+	padding-bottom: 75px;
+}
+
+.projects__title {
+	margin-bottom: 40px;
+	font-size: 55px;
+	letter-spacing: -1.65px;
+}
+
+.projects__list {
+	margin-bottom: 80px;
+}
+
+.projects__item {
+	position: relative;
+	height: 550px;
+	border-radius: 30px;
+}
+.projects__item-link {
+	display: inline-block;
+	border-radius: 30px;
+	overflow: hidden;
+}
+
+.projects__item-link:hover .projects__item-title {
+	margin-bottom: 10px;
+	transform-origin: left;
+	transform: scale(2);
+	transition: all 1s ease;
+	color: #1bff07;
+}
+
+.projects__item-link:hover .projects__item-image {
+	transform: scale(1.1);
+	transition: all 1s ease;
+}
+
+.projects__item-inner {
+	position: absolute;
+	left: 50px;
+	bottom: 50px;
+}
+
+.projects__item-title {
+	display: inline-block;
+	margin-bottom: 5px;
+	color: #fff;
+	font-family: IBM Plex Mono;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: -0.9px;
+}
+
+.projects__item-text {
+	color: #fff;
+	font-family: IBM Plex Mono;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: -0.9px;
+}
+
+.project__btn {
+	display: inline-block;
+	padding: 56px 85px;
+	border: 1px solid #1bff07;
+	color: #000;
+	text-align: center;
+	font-family: IBM Plex Mono;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: -0.9px;
+	border-radius: 10px;
+	background: #1bff07;
+}
+
+.project__btn:hover {
+	color: #1bff07;
+	background-color: #000;
+}
+
+.skills {
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+.skills__title {
+	margin-bottom: 48px;
+	font-size: 55px;
+	letter-spacing: -1.65px;
+}
+
+.skills__item:not(:last-child) {
+	margin-bottom: 60px;
+}
+
+.skills__icon {
+	margin-bottom: 12px;
+	width: 45px;
+	height: 44px;
+}
+
+.skills__item-title {
+	margin-bottom: 15px;
+	color: #1bff07;
+	letter-spacing: -0.66px;
+}
+
+.skills__item-text {
+	width: 778px;
+}
+
+.tasks {
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+.tasks__title {
+	width: 700px;
+	margin-bottom: 74px;
+	font-size: 55px;
+	letter-spacing: -1.65px;
+}
+
+.tasks__item {
+	margin-bottom: 74px;
+}
+
+.tasks__item-inner {
+	padding: 40px;
+	border-radius: 30px;
+	background-color: #191c19;
+}
+
+.tasks__item-image {
+	border-radius: 30px;
+}
+
+.tasks__item-title {
+	margin-bottom: 15px;
+	color: #1bff07;
+	font-size: 55px;
+	letter-spacing: -1.65px;
+}
+
+.tasks__item-text {
+	width: 749px;
+}
+
+.contacts {
+	padding-top: 75px;
+	padding-bottom: 150px;
+}
+
+.contacts__body {
+	position: relative;
+	height: 717px;
+	border-radius: 30px;
+	background-image: url('../images/contact-image-bg.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+	background-color: #191c19;
+}
+
+.contacts__inner {
+	position: absolute;
+	bottom: 89px;
+}
+
+.contacts__title {
+	margin-bottom: 28px;
+	font-size: 55px;
+	letter-spacing: -1.65px;
+}
+
+.contacts__link {
+	font-size: 60px;
+	line-height: 1;
+	letter-spacing: -1.8px;
+}
+
+.contacts__link:hover {
+	color: #1bff07;
+}
+
+.contacts__link:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.footer {
+	padding-top: 76px;
+	padding-bottom: 30px;
+	border-radius: 30px 30px 0 0;
+	background-color: #fff;
+}
+
+.footer__title {
+	margin-bottom: 66px;
+	text-align: center;
+	color: #000;
+	font-family: Manrope;
+	font-weight: 600;
+}
+
+.footer__text {
+	text-align: center;
+	color: #000;
+	font-family: Manrope;
+	font-size: 20px;
+	opacity: 0.5;
+}
