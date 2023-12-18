@@ -1,12 +1,12 @@
-@import './blocks/header.css';
-@import './blocks/menu.css';
-@import './blocks/burger.css';
-@import './blocks/top.css';
-@import './blocks/projects.css';
-@import './blocks/skills.css';
-@import './blocks/tasks.css';
-@import './blocks/contacts.css';
-@import './blocks/footer.css';
+@import '../blocks/header.css';
+@import '../blocks/menu.css';
+@import '../blocks/burger.css';
+@import '../blocks/top.css';
+@import '../blocks/projects.css';
+@import '../blocks/skills.css';
+@import '../blocks/tasks.css';
+@import '../blocks/contacts.css';
+@import '../blocks/footer.css';
 
 .none {
 	display: none;
