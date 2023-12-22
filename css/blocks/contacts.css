@@ -3,8 +3,8 @@
 }
 
 .contacts__body {
-	border-radius: 30px;
 	height: 717px;
+	border-radius: 30px;
 	background-image: url('../../images/contact-image-bg.png');
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -50,7 +50,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	min-width: 450px;
+	max-width: 450px;
 	padding: 21px;
 	border-radius: 10px;
 	background: #1bff07;
@@ -65,12 +65,12 @@
 @media (max-width: 1050px) {
 	.contacts__body {
 		height: 484px;
+		padding-left: 35px;
 	}
 
 	.contacts__inner {
 		max-width: 383px;
 		padding-top: 50px;
-		padding-left: 35px;
 	}
 
 	.contacts__title {
@@ -118,7 +118,7 @@
 }
 
 @media (max-width: 426px) {
-	.contacts__inner {
+	.contacts__body {
 		padding-left: 0;
 	}
 }
@@ -130,6 +130,7 @@
 
 	.contacts__body {
 		height: 428px;
+		padding-left: 0;
 	}
 
 	.contacts__title {

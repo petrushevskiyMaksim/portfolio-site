@@ -103,7 +103,7 @@
 	letter-spacing: -0.9px;
 }
 
-.project__btn {
+.projects__btn {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -122,7 +122,7 @@
 	transition: color 0.5s ease, background-color 0.5s ease;
 }
 
-.project__btn:hover {
+.projects__btn:hover {
 	color: #1bff07;
 	background-color: #000;
 }
@@ -173,7 +173,7 @@
 		letter-spacing: -0.72px;
 	}
 
-	.project__btn {
+	.projects__btn {
 		max-width: 460px;
 		padding: 45px 68px;
 		font-size: 24px;
@@ -186,7 +186,7 @@
 		row-gap: 30px;
 	}
 
-	.project__btn {
+	.projects__btn {
 		padding: 35px 20px;
 	}
 }
@@ -235,7 +235,7 @@
 		letter-spacing: -0.48px;
 	}
 
-	.project__btn {
+	.projects__btn {
 		padding: 28px 51px;
 		font-size: 18px;
 		letter-spacing: -0.54px;
